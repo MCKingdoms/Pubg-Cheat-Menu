@@ -56,4 +56,4 @@ Every configuration in x86 / x64 (Debug and Realese) are already configured with
 
 ## :test_tube: Demonstration :
 
-https://github.com/adamhlt/D3D9-Hook-ImGui/assets/48086737/08665cbd-0f4c-49bc-ae98-9c9fa3bc240b
+https://github.com/adamhlt/D3D11-Hook-ImGui/assets/48086737/d47be218-de40-4bc9-bc1e-2a717d57e8a4
